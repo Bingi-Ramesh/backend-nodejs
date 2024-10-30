@@ -2,9 +2,10 @@
   "name": "backend-nodejs",
   "version": "1.0.0",
   "description": "backend code with nodejs",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,9 +13,5 @@
     "nodejs"
   ],
   "author": "Bingi Ramesh",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.7",
-    "prettier": "^3.3.3"
-  }
+  "license": "ISC"
 }
